@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		409E392C2BA22BCC00960833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E392B2BA22BCC00960833 /* AppDelegate.swift */; };
+		409E392E2BA22BCC00960833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E392D2BA22BCC00960833 /* SceneDelegate.swift */; };
+		409E39302BA22BCC00960833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E392F2BA22BCC00960833 /* ViewController.swift */; };
+		409E39332BA22BCC00960833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409E39312BA22BCC00960833 /* Main.storyboard */; };
+		409E39352BA22BCF00960833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409E39342BA22BCF00960833 /* Assets.xcassets */; };
+		409E39382BA22BCF00960833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409E39362BA22BCF00960833 /* LaunchScreen.storyboard */; };
+		409E39432BA22BCF00960833 /* DZ_SPISOK___IMENATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E39422BA22BCF00960833 /* DZ_SPISOK___IMENATests.swift */; };
+		409E394D2BA22BCF00960833 /* DZ_SPISOK___IMENAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E394C2BA22BCF00960833 /* DZ_SPISOK___IMENAUITests.swift */; };
+		409E394F2BA22BCF00960833 /* DZ_SPISOK___IMENAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E394E2BA22BCF00960833 /* DZ_SPISOK___IMENAUITestsLaunchTests.swift */; };
+		409E395E2BA22C2900960833 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 409E395D2BA22C2900960833 /* SnapKit */; };
+		409E39602BA22CC300960833 /* USERDEFMANAGER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E395F2BA22CC300960833 /* USERDEFMANAGER.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		409E393F2BA22BCF00960833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409E39202BA22BCC00960833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409E39272BA22BCC00960833;
+			remoteInfo = "DZ SPISOK - IMENA";
+		};
+		409E39492BA22BCF00960833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409E39202BA22BCC00960833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409E39272BA22BCC00960833;
+			remoteInfo = "DZ SPISOK - IMENA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		409E39282BA22BCC00960833 /* DZ SPISOK - IMENA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ SPISOK - IMENA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E392B2BA22BCC00960833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		409E392D2BA22BCC00960833 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		409E392F2BA22BCC00960833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		409E39322BA22BCC00960833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409E39342BA22BCF00960833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409E39372BA22BCF00960833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409E39392BA22BCF00960833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409E393E2BA22BCF00960833 /* DZ SPISOK - IMENATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DZ SPISOK - IMENATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E39422BA22BCF00960833 /* DZ_SPISOK___IMENATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DZ_SPISOK___IMENATests.swift"; sourceTree = "<group>"; };
+		409E39482BA22BCF00960833 /* DZ SPISOK - IMENAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DZ SPISOK - IMENAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E394C2BA22BCF00960833 /* DZ_SPISOK___IMENAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DZ_SPISOK___IMENAUITests.swift"; sourceTree = "<group>"; };
+		409E394E2BA22BCF00960833 /* DZ_SPISOK___IMENAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DZ_SPISOK___IMENAUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		409E395F2BA22CC300960833 /* USERDEFMANAGER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USERDEFMANAGER.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409E39252BA22BCC00960833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E395E2BA22C2900960833 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E393B2BA22BCF00960833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E39452BA22BCF00960833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		409E391F2BA22BCC00960833 = {
+			isa = PBXGroup;
+			children = (
+				409E392A2BA22BCC00960833 /* DZ SPISOK - IMENA */,
+				409E39412BA22BCF00960833 /* DZ SPISOK - IMENATests */,
+				409E394B2BA22BCF00960833 /* DZ SPISOK - IMENAUITests */,
+				409E39292BA22BCC00960833 /* Products */,
+				409E395C2BA22C2900960833 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		409E39292BA22BCC00960833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409E39282BA22BCC00960833 /* DZ SPISOK - IMENA.app */,
+				409E393E2BA22BCF00960833 /* DZ SPISOK - IMENATests.xctest */,
+				409E39482BA22BCF00960833 /* DZ SPISOK - IMENAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409E392A2BA22BCC00960833 /* DZ SPISOK - IMENA */ = {
+			isa = PBXGroup;
+			children = (
+				409E392B2BA22BCC00960833 /* AppDelegate.swift */,
+				409E392D2BA22BCC00960833 /* SceneDelegate.swift */,
+				409E392F2BA22BCC00960833 /* ViewController.swift */,
+				409E395F2BA22CC300960833 /* USERDEFMANAGER.swift */,
+				409E39312BA22BCC00960833 /* Main.storyboard */,
+				409E39342BA22BCF00960833 /* Assets.xcassets */,
+				409E39362BA22BCF00960833 /* LaunchScreen.storyboard */,
+				409E39392BA22BCF00960833 /* Info.plist */,
+			);
+			path = "DZ SPISOK - IMENA";
+			sourceTree = "<group>";
+		};
+		409E39412BA22BCF00960833 /* DZ SPISOK - IMENATests */ = {
+			isa = PBXGroup;
+			children = (
+				409E39422BA22BCF00960833 /* DZ_SPISOK___IMENATests.swift */,
+			);
+			path = "DZ SPISOK - IMENATests";
+			sourceTree = "<group>";
+		};
+		409E394B2BA22BCF00960833 /* DZ SPISOK - IMENAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				409E394C2BA22BCF00960833 /* DZ_SPISOK___IMENAUITests.swift */,
+				409E394E2BA22BCF00960833 /* DZ_SPISOK___IMENAUITestsLaunchTests.swift */,
+			);
+			path = "DZ SPISOK - IMENAUITests";
+			sourceTree = "<group>";
+		};
+		409E395C2BA22C2900960833 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409E39272BA22BCC00960833 /* DZ SPISOK - IMENA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E39522BA22BCF00960833 /* Build configuration list for PBXNativeTarget "DZ SPISOK - IMENA" */;
+			buildPhases = (
+				409E39242BA22BCC00960833 /* Sources */,
+				409E39252BA22BCC00960833 /* Frameworks */,
+				409E39262BA22BCC00960833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZ SPISOK - IMENA";
+			packageProductDependencies = (
+				409E395D2BA22C2900960833 /* SnapKit */,
+			);
+			productName = "DZ SPISOK - IMENA";
+			productReference = 409E39282BA22BCC00960833 /* DZ SPISOK - IMENA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		409E393D2BA22BCF00960833 /* DZ SPISOK - IMENATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E39552BA22BCF00960833 /* Build configuration list for PBXNativeTarget "DZ SPISOK - IMENATests" */;
+			buildPhases = (
+				409E393A2BA22BCF00960833 /* Sources */,
+				409E393B2BA22BCF00960833 /* Frameworks */,
+				409E393C2BA22BCF00960833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409E39402BA22BCF00960833 /* PBXTargetDependency */,
+			);
+			name = "DZ SPISOK - IMENATests";
+			productName = "DZ SPISOK - IMENATests";
+			productReference = 409E393E2BA22BCF00960833 /* DZ SPISOK - IMENATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		409E39472BA22BCF00960833 /* DZ SPISOK - IMENAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409E39582BA22BCF00960833 /* Build configuration list for PBXNativeTarget "DZ SPISOK - IMENAUITests" */;
+			buildPhases = (
+				409E39442BA22BCF00960833 /* Sources */,
+				409E39452BA22BCF00960833 /* Frameworks */,
+				409E39462BA22BCF00960833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409E394A2BA22BCF00960833 /* PBXTargetDependency */,
+			);
+			name = "DZ SPISOK - IMENAUITests";
+			productName = "DZ SPISOK - IMENAUITests";
+			productReference = 409E39482BA22BCF00960833 /* DZ SPISOK - IMENAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409E39202BA22BCC00960833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					409E39272BA22BCC00960833 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					409E393D2BA22BCF00960833 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 409E39272BA22BCC00960833;
+					};
+					409E39472BA22BCF00960833 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 409E39272BA22BCC00960833;
+					};
+				};
+			};
+			buildConfigurationList = 409E39232BA22BCC00960833 /* Build configuration list for PBXProject "DZ SPISOK - IMENA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409E391F2BA22BCC00960833;
+			packageReferences = (
+				409E395B2BA22BFE00960833 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 409E39292BA22BCC00960833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409E39272BA22BCC00960833 /* DZ SPISOK - IMENA */,
+				409E393D2BA22BCF00960833 /* DZ SPISOK - IMENATests */,
+				409E39472BA22BCF00960833 /* DZ SPISOK - IMENAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409E39262BA22BCC00960833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E39382BA22BCF00960833 /* LaunchScreen.storyboard in Resources */,
+				409E39352BA22BCF00960833 /* Assets.xcassets in Resources */,
+				409E39332BA22BCC00960833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E393C2BA22BCF00960833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E39462BA22BCF00960833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409E39242BA22BCC00960833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E39602BA22CC300960833 /* USERDEFMANAGER.swift in Sources */,
+				409E39302BA22BCC00960833 /* ViewController.swift in Sources */,
+				409E392C2BA22BCC00960833 /* AppDelegate.swift in Sources */,
+				409E392E2BA22BCC00960833 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E393A2BA22BCF00960833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E39432BA22BCF00960833 /* DZ_SPISOK___IMENATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409E39442BA22BCF00960833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409E394F2BA22BCF00960833 /* DZ_SPISOK___IMENAUITestsLaunchTests.swift in Sources */,
+				409E394D2BA22BCF00960833 /* DZ_SPISOK___IMENAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		409E39402BA22BCF00960833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409E39272BA22BCC00960833 /* DZ SPISOK - IMENA */;
+			targetProxy = 409E393F2BA22BCF00960833 /* PBXContainerItemProxy */;
+		};
+		409E394A2BA22BCF00960833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409E39272BA22BCC00960833 /* DZ SPISOK - IMENA */;
+			targetProxy = 409E39492BA22BCF00960833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		409E39312BA22BCC00960833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409E39322BA22BCC00960833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409E39362BA22BCF00960833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409E39372BA22BCF00960833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409E39502BA22BCF00960833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		409E39512BA22BCF00960833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409E39532BA22BCF00960833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DZ SPISOK - IMENA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-SPISOK---IMENA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		409E39542BA22BCF00960833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DZ SPISOK - IMENA/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-SPISOK---IMENA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		409E39562BA22BCF00960833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-SPISOK---IMENATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZ SPISOK - IMENA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DZ SPISOK - IMENA";
+			};
+			name = Debug;
+		};
+		409E39572BA22BCF00960833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-SPISOK---IMENATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZ SPISOK - IMENA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DZ SPISOK - IMENA";
+			};
+			name = Release;
+		};
+		409E39592BA22BCF00960833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-SPISOK---IMENAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DZ SPISOK - IMENA";
+			};
+			name = Debug;
+		};
+		409E395A2BA22BCF00960833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.DZ-SPISOK---IMENAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DZ SPISOK - IMENA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409E39232BA22BCC00960833 /* Build configuration list for PBXProject "DZ SPISOK - IMENA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E39502BA22BCF00960833 /* Debug */,
+				409E39512BA22BCF00960833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409E39522BA22BCF00960833 /* Build configuration list for PBXNativeTarget "DZ SPISOK - IMENA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E39532BA22BCF00960833 /* Debug */,
+				409E39542BA22BCF00960833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409E39552BA22BCF00960833 /* Build configuration list for PBXNativeTarget "DZ SPISOK - IMENATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E39562BA22BCF00960833 /* Debug */,
+				409E39572BA22BCF00960833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409E39582BA22BCF00960833 /* Build configuration list for PBXNativeTarget "DZ SPISOK - IMENAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409E39592BA22BCF00960833 /* Debug */,
+				409E395A2BA22BCF00960833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		409E395B2BA22BFE00960833 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		409E395D2BA22C2900960833 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 409E395B2BA22BFE00960833 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 409E39202BA22BCC00960833 /* Project object */;
+}
